@@ -1,3 +1,4 @@
+
 /* line 1, ../sass/base/_base.scss */
 body {
   background-color: #338D35 !important;
@@ -550,4 +551,82 @@ main.nav-is-visible {
     font-size: 3.6rem;
     margin: 4em auto;
   }
+
+/* line 1, ../sass/module/_doctor.scss */
+.content {
+  position: relative;
+}
+/* line 3, ../sass/module/_doctor.scss */
+.content h3 {
+  margin: 0px;
+}
+
+/* line 8, ../sass/module/_doctor.scss */
+.content .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+/* line 22, ../sass/module/_doctor.scss */
+.content:hover .content-overlay {
+  opacity: 1;
+}
+
+/* line 26, ../sass/module/_doctor.scss */
+.content-image {
+  width: 100%;
+}
+
+/* line 30, ../sass/module/_doctor.scss */
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+/* line 47, ../sass/module/_doctor.scss */
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+/* line 53, ../sass/module/_doctor.scss */
+.content-details h3 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+/* line 61, ../sass/module/_doctor.scss */
+.content-details p {
+  color: #fff;
+  font-size: 0.8em;
+}
+
+/* line 66, ../sass/module/_doctor.scss */
+.fadeIn-bottom {
+  top: 80%;
 }
