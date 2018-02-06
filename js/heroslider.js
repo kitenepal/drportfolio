@@ -52,23 +52,19 @@ var slideshow = (function(window, undefined) {
    * Set of masks with related effects.
    * @type {Array}
    */
-  var masks = [
-    {
-      source: 'http://tympanus.net/Tutorials/PrismEffectSlider/img/masks/cube-a.svg',
+  var masks = [{
       effects: {
         flip: 'Y',
         rotate: 167 // degrees
       }
     },
     {
-      source: 'http://tympanus.net/Tutorials/PrismEffectSlider/img/masks/cube-b.svg',
       effects: {
         flip: 'X',
         rotate: 90 // degrees
       }
     },
     {
-      source: 'http://tympanus.net/Tutorials/PrismEffectSlider/img/masks/cube-c.svg',
       effects: {
         flip: false,
         rotate: 13 // degrees
