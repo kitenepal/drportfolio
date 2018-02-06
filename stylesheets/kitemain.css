@@ -9,6 +9,40 @@ body {
 }
 
 /* line 1, ../sass/module/_headerslider.scss */
+.carousel-caption {
+  position: relative !important;
+  left: 0% !important;
+  right: 0% !important;
+  bottom: 0px !important;
+  z-index: 10;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  color: #000 !important;
+  text-shadow: none !important;
+}
+/* line 11, ../sass/module/_headerslider.scss */
+.carousel-caption .btn {
+  text-shadow: none !important;
+}
+
+/* line 16, ../sass/module/_headerslider.scss */
+.carousel {
+  position: relative !important;
+}
+
+/* line 20, ../sass/module/_headerslider.scss */
+.controllers {
+  position: absolute;
+  top: 0px;
+}
+
+/* line 25, ../sass/module/_headerslider.scss */
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+/* line 31, ../sass/module/_headerslider.scss */
 .searchbox {
   background-color: transparent !important;
   border-radius: 0px;
@@ -18,7 +52,7 @@ body {
   color: white !important;
 }
 
-/* line 10, ../sass/module/_headerslider.scss */
+/* line 40, ../sass/module/_headerslider.scss */
 .btn {
   background-color: transparent !important;
   color: white;
@@ -27,7 +61,7 @@ body {
   transition: 0.3s;
 }
 
-/* line 18, ../sass/module/_headerslider.scss */
+/* line 48, ../sass/module/_headerslider.scss */
 .btn:hover {
   background-color: transparent !important;
 }
@@ -37,24 +71,24 @@ body {
 Primary style
 
 -------------------------------- */
-/* line 28, ../sass/module/_headerslider.scss */
+/* line 58, ../sass/module/_headerslider.scss */
 *, *::after, *::before {
   box-sizing: border-box;
 }
 
-/* line 32, ../sass/module/_headerslider.scss */
+/* line 62, ../sass/module/_headerslider.scss */
 html {
   font-size: 62.5%;
 }
 
-/* line 36, ../sass/module/_headerslider.scss */
+/* line 66, ../sass/module/_headerslider.scss */
 body {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
   background-color: #485274;
 }
 
-/* line 42, ../sass/module/_headerslider.scss */
+/* line 72, ../sass/module/_headerslider.scss */
 a {
   text-decoration: none;
 }
@@ -64,7 +98,7 @@ a {
 Main Components 
 
 -------------------------------- */
-/* line 51, ../sass/module/_headerslider.scss */
+/* line 81, ../sass/module/_headerslider.scss */
 .cd-header {
   height: 80px;
   width: 90%;
@@ -82,14 +116,14 @@ Main Components
   backface-visibility: hidden;
 }
 
-/* line 67, ../sass/module/_headerslider.scss */
+/* line 97, ../sass/module/_headerslider.scss */
 .cd-header::after {
   clear: both;
   content: "";
   display: table;
 }
 
-/* line 72, ../sass/module/_headerslider.scss */
+/* line 102, ../sass/module/_headerslider.scss */
 .cd-header.nav-is-visible {
   -webkit-transform: translateY(80px);
   -moz-transform: translateY(80px);
@@ -99,7 +133,7 @@ Main Components
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 80, ../sass/module/_headerslider.scss */
+  /* line 110, ../sass/module/_headerslider.scss */
   .cd-header.nav-is-visible {
     -webkit-transform: translateY(170px);
     -moz-transform: translateY(170px);
@@ -108,13 +142,13 @@ Main Components
     transform: translateY(170px);
   }
 }
-/* line 89, ../sass/module/_headerslider.scss */
+/* line 119, ../sass/module/_headerslider.scss */
 .cd-logo {
   float: left;
   margin-top: 28px;
 }
 
-/* line 94, ../sass/module/_headerslider.scss */
+/* line 124, ../sass/module/_headerslider.scss */
 .cd-3d-nav-trigger {
   position: relative;
   float: right;
@@ -128,7 +162,7 @@ Main Components
   color: transparent;
 }
 
-/* line 106, ../sass/module/_headerslider.scss */
+/* line 136, ../sass/module/_headerslider.scss */
 .cd-3d-nav-trigger span,
 .cd-3d-nav-trigger span::before,
 .cd-3d-nav-trigger span::after {
@@ -141,7 +175,7 @@ Main Components
   backface-visibility: hidden;
 }
 
-/* line 117, ../sass/module/_headerslider.scss */
+/* line 147, ../sass/module/_headerslider.scss */
 .cd-3d-nav-trigger span {
   /* this is the central line */
   top: 21px;
@@ -151,7 +185,7 @@ Main Components
   transition: background 0.2s 0.5s;
 }
 
-/* line 125, ../sass/module/_headerslider.scss */
+/* line 155, ../sass/module/_headerslider.scss */
 .cd-3d-nav-trigger span::before, .cd-3d-nav-trigger span:after {
   /* these are the upper and lower lines */
   content: '';
@@ -161,29 +195,29 @@ Main Components
   transition: transform 0.2s 0.5s;
 }
 
-/* line 133, ../sass/module/_headerslider.scss */
+/* line 163, ../sass/module/_headerslider.scss */
 .cd-3d-nav-trigger span::before {
   bottom: 8px;
 }
 
-/* line 136, ../sass/module/_headerslider.scss */
+/* line 166, ../sass/module/_headerslider.scss */
 .cd-3d-nav-trigger span::after {
   top: 8px;
 }
 
-/* line 139, ../sass/module/_headerslider.scss */
+/* line 169, ../sass/module/_headerslider.scss */
 .nav-is-visible .cd-3d-nav-trigger span {
   /* hide line in the center */
   background-color: rgba(255, 255, 255, 0);
 }
 
-/* line 143, ../sass/module/_headerslider.scss */
+/* line 173, ../sass/module/_headerslider.scss */
 .nav-is-visible .cd-3d-nav-trigger span::before, .nav-is-visible .cd-3d-nav-trigger span::after {
   /* keep visible other 2 lines */
   background-color: white;
 }
 
-/* line 147, ../sass/module/_headerslider.scss */
+/* line 177, ../sass/module/_headerslider.scss */
 .nav-is-visible .cd-3d-nav-trigger span::before {
   -webkit-transform: translateY(8px) rotate(-45deg);
   -moz-transform: translateY(8px) rotate(-45deg);
@@ -192,7 +226,7 @@ Main Components
   transform: translateY(8px) rotate(-45deg);
 }
 
-/* line 154, ../sass/module/_headerslider.scss */
+/* line 184, ../sass/module/_headerslider.scss */
 .nav-is-visible .cd-3d-nav-trigger span::after {
   -webkit-transform: translateY(-8px) rotate(45deg);
   -moz-transform: translateY(-8px) rotate(45deg);
@@ -201,7 +235,7 @@ Main Components
   transform: translateY(-8px) rotate(45deg);
 }
 
-/* line 162, ../sass/module/_headerslider.scss */
+/* line 192, ../sass/module/_headerslider.scss */
 .cd-3d-nav-container {
   /* this is the 3D navigation container */
   position: fixed;
@@ -225,7 +259,7 @@ Main Components
   transition: transform 0.5s 0s, visibility 0s 0.5s;
 }
 
-/* line 184, ../sass/module/_headerslider.scss */
+/* line 214, ../sass/module/_headerslider.scss */
 .cd-3d-nav-container.nav-is-visible {
   visibility: visible;
   -webkit-transform: translateY(0);
@@ -239,12 +273,12 @@ Main Components
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 196, ../sass/module/_headerslider.scss */
+  /* line 226, ../sass/module/_headerslider.scss */
   .cd-3d-nav-container {
     height: 170px;
   }
 }
-/* line 201, ../sass/module/_headerslider.scss */
+/* line 231, ../sass/module/_headerslider.scss */
 .cd-3d-nav {
   /* this is the 3D rotating navigation */
   position: relative;
@@ -273,7 +307,7 @@ Main Components
   transition: transform 0.5s;
 }
 
-/* line 228, ../sass/module/_headerslider.scss */
+/* line 258, ../sass/module/_headerslider.scss */
 .cd-3d-nav::after {
   /* menu dark cover layer - to enhance perspective effect */
   content: '';
@@ -290,39 +324,39 @@ Main Components
   transition: opacity 0.5s 0s, visibility 0.5s 0s;
 }
 
-/* line 243, ../sass/module/_headerslider.scss */
+/* line 273, ../sass/module/_headerslider.scss */
 .cd-3d-nav li {
   height: 100%;
   width: 20%;
   float: left;
 }
 
-/* line 248, ../sass/module/_headerslider.scss */
+/* line 278, ../sass/module/_headerslider.scss */
 .cd-3d-nav li:first-of-type a::before {
   background-image: url(../img/icon-1.svg);
 }
 
-/* line 251, ../sass/module/_headerslider.scss */
+/* line 281, ../sass/module/_headerslider.scss */
 .cd-3d-nav li:nth-of-type(2) a::before {
   background-image: url(../img/icon-2.svg);
 }
 
-/* line 254, ../sass/module/_headerslider.scss */
+/* line 284, ../sass/module/_headerslider.scss */
 .cd-3d-nav li:nth-of-type(3) a::before {
   background-image: url(../img/icon-3.svg);
 }
 
-/* line 257, ../sass/module/_headerslider.scss */
+/* line 287, ../sass/module/_headerslider.scss */
 .cd-3d-nav li:nth-of-type(4) a::before {
   background-image: url(../img/icon-4.svg);
 }
 
-/* line 260, ../sass/module/_headerslider.scss */
+/* line 290, ../sass/module/_headerslider.scss */
 .cd-3d-nav li:nth-of-type(5) a::before {
   background-image: url(../img/icon-5.svg);
 }
 
-/* line 263, ../sass/module/_headerslider.scss */
+/* line 293, ../sass/module/_headerslider.scss */
 .cd-3d-nav a {
   position: relative;
   display: block;
@@ -333,7 +367,7 @@ Main Components
   transition: background-color 0.2s;
 }
 
-/* line 272, ../sass/module/_headerslider.scss */
+/* line 302, ../sass/module/_headerslider.scss */
 .cd-3d-nav a::before {
   /* navigation icons */
   content: '';
@@ -354,27 +388,27 @@ Main Components
   background-position: 0 0;
 }
 
-/* line 291, ../sass/module/_headerslider.scss */
+/* line 321, ../sass/module/_headerslider.scss */
 .no-touch .cd-3d-nav a:hover {
   background-color: #2b3145;
 }
 
-/* line 294, ../sass/module/_headerslider.scss */
+/* line 324, ../sass/module/_headerslider.scss */
 .cd-3d-nav .cd-selected a {
   background-color: #212635;
 }
 
-/* line 297, ../sass/module/_headerslider.scss */
+/* line 327, ../sass/module/_headerslider.scss */
 .no-touch .cd-3d-nav .cd-selected a:hover {
   background-color: #212635;
 }
 
-/* line 300, ../sass/module/_headerslider.scss */
+/* line 330, ../sass/module/_headerslider.scss */
 .cd-3d-nav .cd-selected a::before {
   background-position: 0 -32px;
 }
 
-/* line 303, ../sass/module/_headerslider.scss */
+/* line 333, ../sass/module/_headerslider.scss */
 .nav-is-visible .cd-3d-nav {
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -383,7 +417,7 @@ Main Components
   transform: translateZ(0);
 }
 
-/* line 310, ../sass/module/_headerslider.scss */
+/* line 340, ../sass/module/_headerslider.scss */
 .nav-is-visible .cd-3d-nav::after {
   /* menu cover layer - hide it when navigation is visible */
   opacity: 0;
@@ -394,7 +428,7 @@ Main Components
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 319, ../sass/module/_headerslider.scss */
+  /* line 349, ../sass/module/_headerslider.scss */
   .cd-3d-nav a {
     padding: 7.6em 1em 0;
     color: #ffffff;
@@ -409,7 +443,7 @@ Main Components
     text-overflow: ellipsis;
   }
 
-  /* line 332, ../sass/module/_headerslider.scss */
+  /* line 362, ../sass/module/_headerslider.scss */
   .cd-3d-nav a::before {
     top: 4.4em;
     left: 50%;
@@ -421,7 +455,7 @@ Main Components
     transform: translateX(-50%);
   }
 }
-/* line 344, ../sass/module/_headerslider.scss */
+/* line 374, ../sass/module/_headerslider.scss */
 .cd-marker {
   /* line at the bottom of nav selected item */
   position: absolute;
@@ -444,7 +478,7 @@ Main Components
   transition: transform 0.5s, left 0.5s, color 0.5s, background-color 0.5s;
 }
 
-/* line 365, ../sass/module/_headerslider.scss */
+/* line 395, ../sass/module/_headerslider.scss */
 .cd-marker::before {
   /* triangle at the bottom of nav selected item */
   content: '';
@@ -463,7 +497,7 @@ Main Components
   border-bottom-color: inherit;
 }
 
-/* line 382, ../sass/module/_headerslider.scss */
+/* line 412, ../sass/module/_headerslider.scss */
 .nav-is-visible .cd-marker {
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -473,37 +507,37 @@ Main Components
 }
 
 /* these are the colors of the markers - line + arrow */
-/* line 391, ../sass/module/_headerslider.scss */
+/* line 421, ../sass/module/_headerslider.scss */
 .color-1 {
   color: #9a57bd;
   background-color: #9a57bd;
 }
 
-/* line 396, ../sass/module/_headerslider.scss */
+/* line 426, ../sass/module/_headerslider.scss */
 .color-2 {
   color: #c96aa4;
   background-color: #c96aa4;
 }
 
-/* line 401, ../sass/module/_headerslider.scss */
+/* line 431, ../sass/module/_headerslider.scss */
 .color-3 {
   color: #d6915e;
   background-color: #d6915e;
 }
 
-/* line 406, ../sass/module/_headerslider.scss */
+/* line 436, ../sass/module/_headerslider.scss */
 .color-4 {
   color: #5397c7;
   background-color: #5397c7;
 }
 
-/* line 411, ../sass/module/_headerslider.scss */
+/* line 441, ../sass/module/_headerslider.scss */
 .color-5 {
   color: #77cd91;
   background-color: #77cd91;
 }
 
-/* line 416, ../sass/module/_headerslider.scss */
+/* line 446, ../sass/module/_headerslider.scss */
 main {
   -webkit-transition: -webkit-transform 0.5s;
   -moz-transition: -moz-transform 0.5s;
@@ -518,7 +552,7 @@ main {
   backface-visibility: hidden;
 }
 
-/* line 429, ../sass/module/_headerslider.scss */
+/* line 459, ../sass/module/_headerslider.scss */
 main h1 {
   text-align: center;
   color: #ffffff;
@@ -526,7 +560,7 @@ main h1 {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 435, ../sass/module/_headerslider.scss */
+/* line 465, ../sass/module/_headerslider.scss */
 main.nav-is-visible {
   -webkit-transform: translateY(80px);
   -moz-transform: translateY(80px);
@@ -536,7 +570,7 @@ main.nav-is-visible {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 443, ../sass/module/_headerslider.scss */
+  /* line 473, ../sass/module/_headerslider.scss */
   main.nav-is-visible {
     -webkit-transform: translateY(170px);
     -moz-transform: translateY(170px);
@@ -545,7 +579,7 @@ main.nav-is-visible {
     transform: translateY(170px);
   }
 
-  /* line 450, ../sass/module/_headerslider.scss */
+  /* line 480, ../sass/module/_headerslider.scss */
   main h1 {
     font-size: 3.6rem;
     margin: 4em auto;
@@ -636,4 +670,182 @@ main.nav-is-visible {
 /* line 72, ../sass/module/_doctor.scss */
 .fadeIn-bottom {
   top: 80%;
+}
+
+/* line 1, ../sass/module/_heroslider.scss */
+header {
+  height: 50px !important;
+}
+
+/* Article Layout */
+/* line 5, ../sass/module/_heroslider.scss */
+.wrapper {
+  width: 100%;
+  background: white;
+}
+
+/* line 10, ../sass/module/_heroslider.scss */
+.wrapper:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+/* line 16, ../sass/module/_heroslider.scss */
+.wrapper .copy {
+  width: 40%;
+  float: left;
+  position: relative;
+}
+
+/* line 22, ../sass/module/_heroslider.scss */
+.demo-2 .wrapper .copy {
+  float: right;
+}
+
+/* line 26, ../sass/module/_heroslider.scss */
+.wrapper .copy:before {
+  width: 0;
+  height: 0;
+  float: left;
+  padding-bottom: 119%;
+  content: '';
+}
+
+/* line 34, ../sass/module/_heroslider.scss */
+.wrapper .copy article {
+  margin: auto;
+  padding: 4vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 44, ../sass/module/_heroslider.scss */
+.wrapper .copy h2 {
+  margin: 0;
+  font-size: 3em;
+  font-size: 4vw;
+}
+
+/* line 50, ../sass/module/_heroslider.scss */
+.wrapper .copy p:first-of-type {
+  color: #b1b6ba;
+  font-size: 1.5em;
+  font-size: 2vw;
+  margin-bottom: 1.5em;
+}
+
+/* line 57, ../sass/module/_heroslider.scss */
+.wrapper .prism-slider {
+  width: 60%;
+  float: right;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 66, ../sass/module/_heroslider.scss */
+.demo-2 .wrapper .prism-slider {
+  float: left;
+}
+
+/* PrismSlider */
+/* line 71, ../sass/module/_heroslider.scss */
+.cache {
+  display: none;
+}
+
+/* line 75, ../sass/module/_heroslider.scss */
+.prism-slider {
+  width: 1200px;
+  max-width: 100%;
+  height: 0;
+  padding-bottom: 48%;
+  position: relative;
+}
+
+/* line 83, ../sass/module/_heroslider.scss */
+.prism-slider canvas {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 90, ../sass/module/_heroslider.scss */
+.navigation {
+  width: 100%;
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+  list-style: none;
+  z-index: 1;
+}
+
+/* line 99, ../sass/module/_heroslider.scss */
+.navigation li {
+  border: 3px solid #eceff1;
+  width: 18px;
+  height: 18px;
+  margin: 0 5px;
+  background: #52525a;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* line 110, ../sass/module/_heroslider.scss */
+.navigation .active {
+  background: #eceff1;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  /* line 116, ../sass/module/_heroslider.scss */
+  .wrapper:after {
+    display: none;
+  }
+
+  /* line 120, ../sass/module/_heroslider.scss */
+  .wrapper .copy, .wrapper .prism-slider {
+    width: 100%;
+    float: none;
+  }
+
+  /* line 125, ../sass/module/_heroslider.scss */
+  .wrapper .copy:before {
+    display: none;
+  }
+
+  /* line 129, ../sass/module/_heroslider.scss */
+  .wrapper .copy article {
+    position: relative;
+    padding: 50px;
+    display: block;
+  }
+
+  /* line 135, ../sass/module/_heroslider.scss */
+  .wrapper .copy h2 {
+    font-size: 8vw;
+  }
+
+  /* line 139, ../sass/module/_heroslider.scss */
+  .wrapper .copy p:first-of-type {
+    font-size: 4vw;
+  }
+
+  /* line 143, ../sass/module/_heroslider.scss */
+  .wrapper .prism-slider {
+    padding-bottom: 80%;
+  }
+
+  /* line 147, ../sass/module/_heroslider.scss */
+  .navigation li {
+    width: 24px;
+    height: 24px;
+  }
 }
