@@ -1,15 +1,12 @@
-/* line 1, ../sass/module/_doctor.scss */
 .content {
   position: relative;
-}
-/* line 3, ../sass/module/_doctor.scss */
-.content h3 {
-  margin: 0px;
+  h3{
+  	margin: 0px;
+  }
 }
 
-/* line 8, ../sass/module/_doctor.scss */
 .content .content-overlay {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0,0,0,0.7);
   position: absolute;
   width: 100%;
   left: 0;
@@ -22,17 +19,14 @@
   transition: all 0.4s ease-in-out 0s;
 }
 
-/* line 22, ../sass/module/_doctor.scss */
-.content:hover .content-overlay {
+.content:hover .content-overlay{
   opacity: 1;
 }
 
-/* line 26, ../sass/module/_doctor.scss */
-.content-image {
+.content-image{
   width: 100%;
 }
 
-/* line 30, ../sass/module/_doctor.scss */
 .content-details {
   position: absolute;
   text-align: center;
@@ -50,15 +44,13 @@
   transition: all 0.3s ease-in-out 0s;
 }
 
-/* line 47, ../sass/module/_doctor.scss */
-.content:hover .content-details {
+.content:hover .content-details{
   top: 50%;
   left: 50%;
   opacity: 1;
 }
 
-/* line 53, ../sass/module/_doctor.scss */
-.content-details h3 {
+.content-details h3{
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.15em;
@@ -66,13 +58,12 @@
   text-transform: uppercase;
 }
 
-/* line 61, ../sass/module/_doctor.scss */
-.content-details p {
+.content-details p{
   color: #fff;
   font-size: 0.8em;
 }
 
-/* line 66, ../sass/module/_doctor.scss */
-.fadeIn-bottom {
+.fadeIn-bottom{
   top: 80%;
 }
+
