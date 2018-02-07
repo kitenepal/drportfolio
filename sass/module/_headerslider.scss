@@ -239,7 +239,7 @@
   /* this is the 3D rotating navigation */
   position: relative;
   height: 100%;
-  background-color: #343c55;
+  background-color: #47c2c2;
   /* Force Hardware Acceleration */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -340,7 +340,8 @@
 }
 
 .cd-3d-nav .cd-selected a {
-  background-color: #212635;
+  background-color: #0e5969;
+  color: white;
 }
 
 .no-touch .cd-3d-nav .cd-selected a:hover {
