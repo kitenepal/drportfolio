@@ -486,7 +486,6 @@ main {
 }
 
 main h1 {
-  text-align: center;
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -507,9 +506,5 @@ main.nav-is-visible {
     -ms-transform: translateY(170px);
     -o-transform: translateY(170px);
     transform: translateY(170px);
-  }
-  main h1 {
-    font-size: 3.6rem;
-    margin: 4em auto;
   }
 }
