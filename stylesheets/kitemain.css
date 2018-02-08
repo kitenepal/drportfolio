@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Squada+One");
 /* line 1, ../sass/base/_base.scss */
 body {
   background-color: #338D35 !important;
@@ -6,6 +7,12 @@ body {
 /* line 5, ../sass/base/_base.scss */
 .heading {
   color: white !important;
+  font-family: "Squada One", cursive;
+}
+/* line 8, ../sass/base/_base.scss */
+.heading--size {
+  font-size: 5.8em;
+  text-shadow: 0px 0px 4px #096f64;
 }
 
 /* line 1, ../sass/module/_headerslider.scss */
@@ -21,12 +28,12 @@ body {
 .heroslider .card p {
   font-size: 16px !important;
 }
-/* line 14, ../sass/module/_headerslider.scss */
+/* line 13, ../sass/module/_headerslider.scss */
 .heroslider .card .paragraph-size {
   font-size: 14px !important;
 }
 
-/* line 20, ../sass/module/_headerslider.scss */
+/* line 19, ../sass/module/_headerslider.scss */
 .carousel-caption {
   position: relative !important;
   left: 0% !important;
@@ -38,53 +45,53 @@ body {
   color: #000 !important;
   text-shadow: none !important;
 }
-/* line 30, ../sass/module/_headerslider.scss */
+/* line 29, ../sass/module/_headerslider.scss */
 .carousel-caption .btn {
   text-shadow: none !important;
 }
 
-/* line 35, ../sass/module/_headerslider.scss */
+/* line 34, ../sass/module/_headerslider.scss */
 .carousel {
   position: relative !important;
 }
 
-/* line 39, ../sass/module/_headerslider.scss */
+/* line 38, ../sass/module/_headerslider.scss */
 .controllers {
   position: absolute;
   top: 0px;
 }
 
-/* line 44, ../sass/module/_headerslider.scss */
+/* line 43, ../sass/module/_headerslider.scss */
 .carousel-control.left,
 .carousel-control.right {
   background-image: none;
 }
 
-/* line 50, ../sass/module/_headerslider.scss */
-.searchbox {
-  background-color: transparent !important;
-  border-radius: 0px;
-  outline: 0px;
-  border: 0px;
-  border-bottom: 1px solid white;
-  color: white !important;
+/* line 49, ../sass/module/_headerslider.scss */
+#imaginary_container {
+  margin-top: 5%;
+  /* Don't copy this */
 }
 
-/* line 59, ../sass/module/_headerslider.scss */
-.btn {
-  background-color: transparent !important;
-  color: white;
-  border-radius: 0px !important;
-  padding: 0px 10px !important;
-  transition: 0.3s;
+/* line 52, ../sass/module/_headerslider.scss */
+.stylish-input-group .input-group-addon {
+  background: white !important;
 }
 
-/* line 67, ../sass/module/_headerslider.scss */
-.btn:hover {
-  background-color: transparent !important;
+/* line 55, ../sass/module/_headerslider.scss */
+.stylish-input-group .form-control {
+  border-right: 0;
+  box-shadow: 0 0 0;
+  border-color: #ccc;
 }
 
-/* line 72, ../sass/module/_headerslider.scss */
+/* line 60, ../sass/module/_headerslider.scss */
+.stylish-input-group button {
+  border: 0;
+  background: transparent;
+}
+
+/* line 66, ../sass/module/_headerslider.scss */
 .cd-header {
   width: 90%;
   margin: 0 auto;
@@ -101,14 +108,14 @@ body {
   backface-visibility: hidden;
 }
 
-/* line 89, ../sass/module/_headerslider.scss */
+/* line 83, ../sass/module/_headerslider.scss */
 .cd-header::after {
   clear: both;
   content: "";
   display: table;
 }
 
-/* line 95, ../sass/module/_headerslider.scss */
+/* line 89, ../sass/module/_headerslider.scss */
 .cd-header.nav-is-visible {
   -webkit-transform: translateY(80px);
   -moz-transform: translateY(80px);
@@ -118,7 +125,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 104, ../sass/module/_headerslider.scss */
+  /* line 98, ../sass/module/_headerslider.scss */
   .cd-header.nav-is-visible {
     -webkit-transform: translateY(170px);
     -moz-transform: translateY(170px);
@@ -127,13 +134,13 @@ body {
     transform: translateY(170px);
   }
 }
-/* line 113, ../sass/module/_headerslider.scss */
+/* line 107, ../sass/module/_headerslider.scss */
 .cd-logo {
   float: left;
   margin-top: 28px;
 }
 
-/* line 118, ../sass/module/_headerslider.scss */
+/* line 112, ../sass/module/_headerslider.scss */
 .cd-3d-nav-trigger {
   position: relative;
   float: right;
@@ -147,7 +154,7 @@ body {
   color: transparent;
 }
 
-/* line 131, ../sass/module/_headerslider.scss */
+/* line 125, ../sass/module/_headerslider.scss */
 .cd-3d-nav-trigger span,
 .cd-3d-nav-trigger span::before,
 .cd-3d-nav-trigger span::after {
@@ -160,7 +167,7 @@ body {
   backface-visibility: hidden;
 }
 
-/* line 143, ../sass/module/_headerslider.scss */
+/* line 137, ../sass/module/_headerslider.scss */
 .cd-3d-nav-trigger span {
   /* this is the central line */
   top: 21px;
@@ -170,7 +177,7 @@ body {
   transition: background 0.2s 0.5s;
 }
 
-/* line 152, ../sass/module/_headerslider.scss */
+/* line 146, ../sass/module/_headerslider.scss */
 .cd-3d-nav-trigger span::before,
 .cd-3d-nav-trigger span:after {
   /* these are the upper and lower lines */
@@ -181,30 +188,30 @@ body {
   transition: transform 0.2s 0.5s;
 }
 
-/* line 162, ../sass/module/_headerslider.scss */
+/* line 156, ../sass/module/_headerslider.scss */
 .cd-3d-nav-trigger span::before {
   bottom: 8px;
 }
 
-/* line 166, ../sass/module/_headerslider.scss */
+/* line 160, ../sass/module/_headerslider.scss */
 .cd-3d-nav-trigger span::after {
   top: 8px;
 }
 
-/* line 170, ../sass/module/_headerslider.scss */
+/* line 164, ../sass/module/_headerslider.scss */
 .nav-is-visible .cd-3d-nav-trigger span {
   /* hide line in the center */
   background-color: rgba(255, 255, 255, 0);
 }
 
-/* line 175, ../sass/module/_headerslider.scss */
+/* line 169, ../sass/module/_headerslider.scss */
 .nav-is-visible .cd-3d-nav-trigger span::before,
 .nav-is-visible .cd-3d-nav-trigger span::after {
   /* keep visible other 2 lines */
   background-color: white;
 }
 
-/* line 181, ../sass/module/_headerslider.scss */
+/* line 175, ../sass/module/_headerslider.scss */
 .nav-is-visible .cd-3d-nav-trigger span::before {
   -webkit-transform: translateY(8px) rotate(-45deg);
   -moz-transform: translateY(8px) rotate(-45deg);
@@ -213,7 +220,7 @@ body {
   transform: translateY(8px) rotate(-45deg);
 }
 
-/* line 189, ../sass/module/_headerslider.scss */
+/* line 183, ../sass/module/_headerslider.scss */
 .nav-is-visible .cd-3d-nav-trigger span::after {
   -webkit-transform: translateY(-8px) rotate(45deg);
   -moz-transform: translateY(-8px) rotate(45deg);
@@ -222,7 +229,7 @@ body {
   transform: translateY(-8px) rotate(45deg);
 }
 
-/* line 197, ../sass/module/_headerslider.scss */
+/* line 191, ../sass/module/_headerslider.scss */
 .cd-3d-nav-container {
   /* this is the 3D navigation container */
   position: fixed;
@@ -246,7 +253,7 @@ body {
   transition: transform 0.5s 0s, visibility 0s 0.5s;
 }
 
-/* line 220, ../sass/module/_headerslider.scss */
+/* line 214, ../sass/module/_headerslider.scss */
 .cd-3d-nav-container.nav-is-visible {
   visibility: visible;
   -webkit-transform: translateY(0);
@@ -260,12 +267,12 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 233, ../sass/module/_headerslider.scss */
+  /* line 227, ../sass/module/_headerslider.scss */
   .cd-3d-nav-container {
     height: 170px;
   }
 }
-/* line 238, ../sass/module/_headerslider.scss */
+/* line 232, ../sass/module/_headerslider.scss */
 .cd-3d-nav {
   /* this is the 3D rotating navigation */
   position: relative;
@@ -294,7 +301,7 @@ body {
   transition: transform 0.5s;
 }
 
-/* line 266, ../sass/module/_headerslider.scss */
+/* line 260, ../sass/module/_headerslider.scss */
 .cd-3d-nav::after {
   /* menu dark cover layer - to enhance perspective effect */
   content: '';
@@ -311,39 +318,39 @@ body {
   transition: opacity 0.5s 0s, visibility 0.5s 0s;
 }
 
-/* line 282, ../sass/module/_headerslider.scss */
+/* line 276, ../sass/module/_headerslider.scss */
 .cd-3d-nav li {
   height: 100%;
   width: 20%;
   float: left;
 }
 
-/* line 288, ../sass/module/_headerslider.scss */
+/* line 282, ../sass/module/_headerslider.scss */
 .cd-3d-nav li:first-of-type a::before {
   background-image: url(../img/icon-1.svg);
 }
 
-/* line 292, ../sass/module/_headerslider.scss */
+/* line 286, ../sass/module/_headerslider.scss */
 .cd-3d-nav li:nth-of-type(2) a::before {
   background-image: url(../img/icon-2.svg);
 }
 
-/* line 296, ../sass/module/_headerslider.scss */
+/* line 290, ../sass/module/_headerslider.scss */
 .cd-3d-nav li:nth-of-type(3) a::before {
   background-image: url(../img/icon-3.svg);
 }
 
-/* line 300, ../sass/module/_headerslider.scss */
+/* line 294, ../sass/module/_headerslider.scss */
 .cd-3d-nav li:nth-of-type(4) a::before {
   background-image: url(../img/icon-4.svg);
 }
 
-/* line 304, ../sass/module/_headerslider.scss */
+/* line 298, ../sass/module/_headerslider.scss */
 .cd-3d-nav li:nth-of-type(5) a::before {
   background-image: url(../img/icon-5.svg);
 }
 
-/* line 308, ../sass/module/_headerslider.scss */
+/* line 302, ../sass/module/_headerslider.scss */
 .cd-3d-nav a {
   position: relative;
   display: block;
@@ -354,7 +361,7 @@ body {
   transition: background-color 0.2s;
 }
 
-/* line 318, ../sass/module/_headerslider.scss */
+/* line 312, ../sass/module/_headerslider.scss */
 .cd-3d-nav a::before {
   /* navigation icons */
   content: '';
@@ -375,28 +382,28 @@ body {
   background-position: 0 0;
 }
 
-/* line 338, ../sass/module/_headerslider.scss */
+/* line 332, ../sass/module/_headerslider.scss */
 .no-touch .cd-3d-nav a:hover {
   background-color: #2b3145;
 }
 
-/* line 342, ../sass/module/_headerslider.scss */
+/* line 336, ../sass/module/_headerslider.scss */
 .cd-3d-nav .cd-selected a {
   background-color: #0e5969;
   color: white;
 }
 
-/* line 347, ../sass/module/_headerslider.scss */
+/* line 341, ../sass/module/_headerslider.scss */
 .no-touch .cd-3d-nav .cd-selected a:hover {
   background-color: #212635;
 }
 
-/* line 351, ../sass/module/_headerslider.scss */
+/* line 345, ../sass/module/_headerslider.scss */
 .cd-3d-nav .cd-selected a::before {
   background-position: 0 -32px;
 }
 
-/* line 355, ../sass/module/_headerslider.scss */
+/* line 349, ../sass/module/_headerslider.scss */
 .nav-is-visible .cd-3d-nav {
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -405,7 +412,7 @@ body {
   transform: translateZ(0);
 }
 
-/* line 363, ../sass/module/_headerslider.scss */
+/* line 357, ../sass/module/_headerslider.scss */
 .nav-is-visible .cd-3d-nav::after {
   /* menu cover layer - hide it when navigation is visible */
   opacity: 0;
@@ -416,7 +423,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 373, ../sass/module/_headerslider.scss */
+  /* line 367, ../sass/module/_headerslider.scss */
   .cd-3d-nav a {
     padding: 7.6em 1em 0;
     color: #ffffff;
@@ -431,7 +438,7 @@ body {
     text-overflow: ellipsis;
   }
 
-  /* line 386, ../sass/module/_headerslider.scss */
+  /* line 380, ../sass/module/_headerslider.scss */
   .cd-3d-nav a::before {
     top: 4.4em;
     left: 50%;
@@ -443,7 +450,7 @@ body {
     transform: translateX(-50%);
   }
 }
-/* line 398, ../sass/module/_headerslider.scss */
+/* line 392, ../sass/module/_headerslider.scss */
 .cd-marker {
   /* line at the bottom of nav selected item */
   position: absolute;
@@ -466,7 +473,7 @@ body {
   transition: transform 0.5s, left 0.5s, color 0.5s, background-color 0.5s;
 }
 
-/* line 420, ../sass/module/_headerslider.scss */
+/* line 414, ../sass/module/_headerslider.scss */
 .cd-marker::before {
   /* triangle at the bottom of nav selected item */
   content: '';
@@ -485,7 +492,7 @@ body {
   border-bottom-color: inherit;
 }
 
-/* line 438, ../sass/module/_headerslider.scss */
+/* line 432, ../sass/module/_headerslider.scss */
 .nav-is-visible .cd-marker {
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -495,37 +502,37 @@ body {
 }
 
 /* these are the colors of the markers - line + arrow */
-/* line 449, ../sass/module/_headerslider.scss */
+/* line 443, ../sass/module/_headerslider.scss */
 .color-1 {
   color: #9a57bd;
   background-color: #9a57bd;
 }
 
-/* line 454, ../sass/module/_headerslider.scss */
+/* line 448, ../sass/module/_headerslider.scss */
 .color-2 {
   color: #c96aa4;
   background-color: #c96aa4;
 }
 
-/* line 459, ../sass/module/_headerslider.scss */
+/* line 453, ../sass/module/_headerslider.scss */
 .color-3 {
   color: #d6915e;
   background-color: #d6915e;
 }
 
-/* line 464, ../sass/module/_headerslider.scss */
+/* line 458, ../sass/module/_headerslider.scss */
 .color-4 {
   color: #5397c7;
   background-color: #5397c7;
 }
 
-/* line 469, ../sass/module/_headerslider.scss */
+/* line 463, ../sass/module/_headerslider.scss */
 .color-5 {
   color: #77cd91;
   background-color: #77cd91;
 }
 
-/* line 474, ../sass/module/_headerslider.scss */
+/* line 468, ../sass/module/_headerslider.scss */
 main {
   -webkit-transition: -webkit-transform 0.5s;
   -moz-transition: -moz-transform 0.5s;
@@ -540,14 +547,14 @@ main {
   backface-visibility: hidden;
 }
 
-/* line 488, ../sass/module/_headerslider.scss */
+/* line 482, ../sass/module/_headerslider.scss */
 main h1 {
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 494, ../sass/module/_headerslider.scss */
+/* line 488, ../sass/module/_headerslider.scss */
 main.nav-is-visible {
   -webkit-transform: translateY(80px);
   -moz-transform: translateY(80px);
@@ -557,7 +564,7 @@ main.nav-is-visible {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 503, ../sass/module/_headerslider.scss */
+  /* line 497, ../sass/module/_headerslider.scss */
   main.nav-is-visible {
     -webkit-transform: translateY(170px);
     -moz-transform: translateY(170px);
@@ -1004,26 +1011,32 @@ header {
   background: white;
 }
 
-/* line 10, ../sass/module/_heroslider.scss */
+@media screen and (max-width: 768px) {
+  /* line 11, ../sass/module/_heroslider.scss */
+  .wrapper {
+    margin-bottom: 20px;
+  }
+}
+/* line 16, ../sass/module/_heroslider.scss */
 .wrapper:after {
   content: '';
   clear: both;
   display: block;
 }
 
-/* line 16, ../sass/module/_heroslider.scss */
+/* line 22, ../sass/module/_heroslider.scss */
 .wrapper .copy {
   width: 40%;
   float: left;
   position: relative;
 }
 
-/* line 22, ../sass/module/_heroslider.scss */
+/* line 28, ../sass/module/_heroslider.scss */
 .demo-2 .wrapper .copy {
   float: right;
 }
 
-/* line 26, ../sass/module/_heroslider.scss */
+/* line 32, ../sass/module/_heroslider.scss */
 .wrapper .copy:before {
   width: 0;
   height: 0;
@@ -1032,25 +1045,24 @@ header {
   content: '';
 }
 
-/* line 34, ../sass/module/_heroslider.scss */
-.wrapper .copy article {
-  margin: auto;
-  padding: 4vw;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+/* line 50, ../sass/module/_heroslider.scss */
+.article {
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
 }
 
-/* line 44, ../sass/module/_heroslider.scss */
+/* line 59, ../sass/module/_heroslider.scss */
 .wrapper .copy h2 {
   margin: 0;
   font-size: 3em;
   font-size: 4vw;
 }
 
-/* line 50, ../sass/module/_heroslider.scss */
+/* line 65, ../sass/module/_heroslider.scss */
 .wrapper .copy p:first-of-type {
   color: #b1b6ba;
   font-size: 1.5em;
@@ -1058,7 +1070,7 @@ header {
   margin-bottom: 1.5em;
 }
 
-/* line 57, ../sass/module/_heroslider.scss */
+/* line 72, ../sass/module/_heroslider.scss */
 .wrapper .prism-slider {
   width: 60%;
   float: right;
@@ -1068,18 +1080,18 @@ header {
   user-select: none;
 }
 
-/* line 66, ../sass/module/_heroslider.scss */
+/* line 81, ../sass/module/_heroslider.scss */
 .demo-2 .wrapper .prism-slider {
   float: left;
 }
 
 /* PrismSlider */
-/* line 71, ../sass/module/_heroslider.scss */
+/* line 86, ../sass/module/_heroslider.scss */
 .cache {
   display: none;
 }
 
-/* line 75, ../sass/module/_heroslider.scss */
+/* line 90, ../sass/module/_heroslider.scss */
 .prism-slider {
   width: 1200px;
   max-width: 100%;
@@ -1088,7 +1100,7 @@ header {
   position: relative;
 }
 
-/* line 83, ../sass/module/_heroslider.scss */
+/* line 98, ../sass/module/_heroslider.scss */
 .prism-slider canvas {
   width: 100%;
   position: absolute;
@@ -1096,7 +1108,7 @@ header {
   left: 0;
 }
 
-/* line 90, ../sass/module/_heroslider.scss */
+/* line 105, ../sass/module/_heroslider.scss */
 .navigation {
   width: 100%;
   position: absolute;
@@ -1106,7 +1118,7 @@ header {
   z-index: 1;
 }
 
-/* line 99, ../sass/module/_heroslider.scss */
+/* line 114, ../sass/module/_heroslider.scss */
 .navigation li {
   border: 3px solid #eceff1;
   width: 18px;
@@ -1118,52 +1130,52 @@ header {
   cursor: pointer;
 }
 
-/* line 110, ../sass/module/_heroslider.scss */
+/* line 125, ../sass/module/_heroslider.scss */
 .navigation .active {
   background: #eceff1;
 }
 
 /* Media Queries */
 @media screen and (max-width: 1024px) {
-  /* line 116, ../sass/module/_heroslider.scss */
+  /* line 131, ../sass/module/_heroslider.scss */
   .wrapper:after {
     display: none;
   }
 
-  /* line 120, ../sass/module/_heroslider.scss */
+  /* line 135, ../sass/module/_heroslider.scss */
   .wrapper .copy, .wrapper .prism-slider {
     width: 100%;
     float: none;
   }
 
-  /* line 125, ../sass/module/_heroslider.scss */
+  /* line 140, ../sass/module/_heroslider.scss */
   .wrapper .copy:before {
     display: none;
   }
 
-  /* line 129, ../sass/module/_heroslider.scss */
+  /* line 144, ../sass/module/_heroslider.scss */
   .wrapper .copy article {
     position: relative;
     padding: 50px;
     display: block;
   }
 
-  /* line 135, ../sass/module/_heroslider.scss */
+  /* line 150, ../sass/module/_heroslider.scss */
   .wrapper .copy h2 {
     font-size: 8vw;
   }
 
-  /* line 139, ../sass/module/_heroslider.scss */
+  /* line 154, ../sass/module/_heroslider.scss */
   .wrapper .copy p:first-of-type {
     font-size: 4vw;
   }
 
-  /* line 143, ../sass/module/_heroslider.scss */
+  /* line 158, ../sass/module/_heroslider.scss */
   .wrapper .prism-slider {
     padding-bottom: 80%;
   }
 
-  /* line 147, ../sass/module/_heroslider.scss */
+  /* line 162, ../sass/module/_heroslider.scss */
   .navigation li {
     width: 24px;
     height: 24px;
