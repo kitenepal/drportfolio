@@ -42,10 +42,10 @@ var slideshow = (function(window, undefined) {
    * @type {Array}
    */
   var slides = [
-    'http://tympanus.net/Tutorials/PrismEffectSlider/img/nature-a.jpg',
-    'http://tympanus.net/Tutorials/PrismEffectSlider/img/nature-b.jpg',
-    'http://tympanus.net/Tutorials/PrismEffectSlider/img/nature-c.jpg',
-    'http://tympanus.net/Tutorials/PrismEffectSlider/img/nature-d.jpg'
+    'https://static.dezeen.com/uploads/2017/02/sheffield-childrens-hospital-morag-myerscough-interior-design-uk_dezeen_2364_hero.gif',
+    'https://financialtribune.com/sites/default/files/field/image/17january/12_makeover.jpg',
+    'http://www.medicahospitals.in/wp-content/gallery/gammahospital-img/gamma-hospital-img1.jpg',
+    'https://my.clevelandclinic.org/-/scassets/images/org/locations/hillcrest-hospital/hillcrest-hospital-hallway.ashx'
   ];
 
   /**
