@@ -567,6 +567,11 @@ main.nav-is-visible {
   }
 }
 /* line 1, ../sass/module/_doctor.scss */
+.doctors {
+  padding: 40px 0 40px 0;
+}
+
+/* line 4, ../sass/module/_doctor.scss */
 .fa-spin-fast {
   -webkit-animation: fa-spin-fast 0.2s infinite linear;
   animation: fa-spin-fast 0.2s infinite linear;
@@ -592,7 +597,7 @@ main.nav-is-visible {
     transform: rotate(359deg);
   }
 }
-/* line 25, ../sass/module/_doctor.scss */
+/* line 28, ../sass/module/_doctor.scss */
 .material-card {
   position: relative;
   height: 0;
@@ -600,7 +605,7 @@ main.nav-is-visible {
   margin-bottom: 6.6em;
 }
 
-/* line 31, ../sass/module/_doctor.scss */
+/* line 34, ../sass/module/_doctor.scss */
 .material-card h2 {
   position: absolute;
   top: calc(100% - 16px);
@@ -620,19 +625,19 @@ main.nav-is-visible {
   transition: all 0.3s;
 }
 
-/* line 49, ../sass/module/_doctor.scss */
+/* line 52, ../sass/module/_doctor.scss */
 .material-card h2 span {
   display: block;
 }
 
-/* line 52, ../sass/module/_doctor.scss */
+/* line 55, ../sass/module/_doctor.scss */
 .material-card h2 strong {
   font-weight: 400;
   display: block;
   font-size: 0.8em;
 }
 
-/* line 57, ../sass/module/_doctor.scss */
+/* line 60, ../sass/module/_doctor.scss */
 .material-card h2:before,
 .material-card h2:after {
   content: " ";
@@ -648,36 +653,36 @@ main.nav-is-visible {
   transition: all 0.3s;
 }
 
-/* line 71, ../sass/module/_doctor.scss */
+/* line 74, ../sass/module/_doctor.scss */
 .material-card h2:after {
   top: auto;
   bottom: 0;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 76, ../sass/module/_doctor.scss */
+  /* line 79, ../sass/module/_doctor.scss */
   .material-card.mc-active {
     padding-bottom: 0;
     height: auto;
   }
 }
-/* line 81, ../sass/module/_doctor.scss */
+/* line 84, ../sass/module/_doctor.scss */
 .material-card.mc-active h2 {
   top: 0;
   padding: 10px 16px 10px 90px;
 }
 
-/* line 85, ../sass/module/_doctor.scss */
+/* line 88, ../sass/module/_doctor.scss */
 .material-card.mc-active h2:before {
   top: 0;
 }
 
-/* line 88, ../sass/module/_doctor.scss */
+/* line 91, ../sass/module/_doctor.scss */
 .material-card.mc-active h2:after {
   bottom: -16px;
 }
 
-/* line 91, ../sass/module/_doctor.scss */
+/* line 94, ../sass/module/_doctor.scss */
 .material-card .mc-content {
   position: absolute;
   right: 0;
@@ -691,7 +696,7 @@ main.nav-is-visible {
   transition: all 0.3s;
 }
 
-/* line 103, ../sass/module/_doctor.scss */
+/* line 106, ../sass/module/_doctor.scss */
 .material-card .mc-btn-action {
   position: absolute;
   right: 16px;
@@ -714,17 +719,17 @@ main.nav-is-visible {
   transition: all 0.3s;
 }
 
-/* line 124, ../sass/module/_doctor.scss */
+/* line 127, ../sass/module/_doctor.scss */
 .material-card .mc-btn-action:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* line 127, ../sass/module/_doctor.scss */
+/* line 130, ../sass/module/_doctor.scss */
 .material-card.mc-active .mc-btn-action {
   top: 62px;
 }
 
-/* line 130, ../sass/module/_doctor.scss */
+/* line 133, ../sass/module/_doctor.scss */
 .material-card .mc-description {
   position: absolute;
   top: 100%;
@@ -741,7 +746,7 @@ main.nav-is-visible {
   transition: all 1.2s;
 }
 
-/* line 145, ../sass/module/_doctor.scss */
+/* line 148, ../sass/module/_doctor.scss */
 .material-card .mc-footer {
   height: 0;
   overflow: hidden;
@@ -752,7 +757,7 @@ main.nav-is-visible {
   transition: all 0.3s;
 }
 
-/* line 154, ../sass/module/_doctor.scss */
+/* line 157, ../sass/module/_doctor.scss */
 .material-card .mc-footer h4 {
   position: absolute;
   top: 200px;
@@ -768,7 +773,7 @@ main.nav-is-visible {
   transition: all 1.4s;
 }
 
-/* line 168, ../sass/module/_doctor.scss */
+/* line 171, ../sass/module/_doctor.scss */
 .material-card .mc-footer a {
   display: block;
   float: left;
@@ -784,7 +789,7 @@ main.nav-is-visible {
   top: 200px;
 }
 
-/* line 182, ../sass/module/_doctor.scss */
+/* line 185, ../sass/module/_doctor.scss */
 .material-card .mc-footer a:nth-child(1) {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -793,7 +798,7 @@ main.nav-is-visible {
   transition: all 0.5s;
 }
 
-/* line 189, ../sass/module/_doctor.scss */
+/* line 192, ../sass/module/_doctor.scss */
 .material-card .mc-footer a:nth-child(2) {
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
@@ -802,7 +807,7 @@ main.nav-is-visible {
   transition: all 0.6s;
 }
 
-/* line 196, ../sass/module/_doctor.scss */
+/* line 199, ../sass/module/_doctor.scss */
 .material-card .mc-footer a:nth-child(3) {
   -webkit-transition: all 0.7s;
   -moz-transition: all 0.7s;
@@ -811,7 +816,7 @@ main.nav-is-visible {
   transition: all 0.7s;
 }
 
-/* line 203, ../sass/module/_doctor.scss */
+/* line 206, ../sass/module/_doctor.scss */
 .material-card .mc-footer a:nth-child(4) {
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
@@ -820,7 +825,7 @@ main.nav-is-visible {
   transition: all 0.8s;
 }
 
-/* line 210, ../sass/module/_doctor.scss */
+/* line 213, ../sass/module/_doctor.scss */
 .material-card .mc-footer a:nth-child(5) {
   -webkit-transition: all 0.9s;
   -moz-transition: all 0.9s;
@@ -829,7 +834,7 @@ main.nav-is-visible {
   transition: all 0.9s;
 }
 
-/* line 217, ../sass/module/_doctor.scss */
+/* line 220, ../sass/module/_doctor.scss */
 .material-card .img-container {
   overflow: hidden;
   position: absolute;
@@ -845,7 +850,7 @@ main.nav-is-visible {
   transition: all 0.3s;
 }
 
-/* line 231, ../sass/module/_doctor.scss */
+/* line 234, ../sass/module/_doctor.scss */
 .material-card.mc-active .img-container {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -857,19 +862,19 @@ main.nav-is-visible {
   z-index: 20;
 }
 
-/* line 241, ../sass/module/_doctor.scss */
+/* line 244, ../sass/module/_doctor.scss */
 .material-card.mc-active .mc-content {
   padding-top: 5.6em;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 245, ../sass/module/_doctor.scss */
+  /* line 248, ../sass/module/_doctor.scss */
   .material-card.mc-active .mc-content {
     position: relative;
     margin-right: 16px;
   }
 }
-/* line 250, ../sass/module/_doctor.scss */
+/* line 253, ../sass/module/_doctor.scss */
 .material-card.mc-active .mc-description {
   top: 50px;
   padding-top: 55px;
@@ -878,7 +883,7 @@ main.nav-is-visible {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 257, ../sass/module/_doctor.scss */
+  /* line 260, ../sass/module/_doctor.scss */
   .material-card.mc-active .mc-description {
     position: relative;
     top: auto;
@@ -888,7 +893,7 @@ main.nav-is-visible {
     bottom: 0;
   }
 }
-/* line 266, ../sass/module/_doctor.scss */
+/* line 269, ../sass/module/_doctor.scss */
 .material-card.mc-active .mc-footer {
   overflow: visible;
   position: absolute;
@@ -900,22 +905,22 @@ main.nav-is-visible {
   padding-left: 25px;
 }
 
-/* line 276, ../sass/module/_doctor.scss */
+/* line 279, ../sass/module/_doctor.scss */
 .material-card.mc-active .mc-footer a {
   top: 0;
 }
 
-/* line 279, ../sass/module/_doctor.scss */
+/* line 282, ../sass/module/_doctor.scss */
 .material-card.mc-active .mc-footer h4 {
   top: -32px;
 }
 
-/* line 282, ../sass/module/_doctor.scss */
+/* line 285, ../sass/module/_doctor.scss */
 .material-card.Red h2 {
   background-color: #096f64;
 }
 
-/* line 285, ../sass/module/_doctor.scss */
+/* line 288, ../sass/module/_doctor.scss */
 .material-card.Red h2:after {
   border-top-color: #096f64;
   border-right-color: #096f64;
@@ -923,7 +928,7 @@ main.nav-is-visible {
   border-left-color: transparent;
 }
 
-/* line 291, ../sass/module/_doctor.scss */
+/* line 294, ../sass/module/_doctor.scss */
 .material-card.Red h2:before {
   border-top-color: transparent;
   border-right-color: #083f49;
@@ -931,7 +936,7 @@ main.nav-is-visible {
   border-left-color: transparent;
 }
 
-/* line 297, ../sass/module/_doctor.scss */
+/* line 300, ../sass/module/_doctor.scss */
 .material-card.Red.mc-active h2:before {
   border-top-color: transparent;
   border-right-color: #096f64;
@@ -939,7 +944,7 @@ main.nav-is-visible {
   border-left-color: transparent;
 }
 
-/* line 303, ../sass/module/_doctor.scss */
+/* line 306, ../sass/module/_doctor.scss */
 .material-card.Red.mc-active h2:after {
   border-top-color: #083f49;
   border-right-color: #083f49;
@@ -947,42 +952,42 @@ main.nav-is-visible {
   border-left-color: transparent;
 }
 
-/* line 309, ../sass/module/_doctor.scss */
+/* line 312, ../sass/module/_doctor.scss */
 .material-card.Red .mc-btn-action {
   background-color: #096f64;
 }
 
-/* line 312, ../sass/module/_doctor.scss */
+/* line 315, ../sass/module/_doctor.scss */
 .material-card.Red .mc-btn-action:hover {
   background-color: #096f64;
 }
 
-/* line 315, ../sass/module/_doctor.scss */
+/* line 318, ../sass/module/_doctor.scss */
 .material-card.Red .mc-footer h4 {
   color: #096f64;
 }
 
-/* line 318, ../sass/module/_doctor.scss */
+/* line 321, ../sass/module/_doctor.scss */
 .material-card.Red .mc-footer a {
   background-color: #096f64;
 }
 
-/* line 321, ../sass/module/_doctor.scss */
+/* line 324, ../sass/module/_doctor.scss */
 .material-card.Red.mc-active .mc-content {
   background-color: #ffebee;
 }
 
-/* line 324, ../sass/module/_doctor.scss */
+/* line 327, ../sass/module/_doctor.scss */
 .material-card.Red.mc-active .mc-footer {
   background-color: #ffcdd2;
 }
 
-/* line 327, ../sass/module/_doctor.scss */
+/* line 330, ../sass/module/_doctor.scss */
 .material-card.Red.mc-active .mc-btn-action {
   border-color: #ffebee;
 }
 
-/* line 334, ../sass/module/_doctor.scss */
+/* line 337, ../sass/module/_doctor.scss */
 .dr-ad img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -1357,26 +1362,30 @@ header {
   background: #ff3636;
 }
 
+/* line 1, ../sass/module/_hospital.scss */
+.hospitals {
+  padding: 40px 0 40px 0;
+}
 /* line 2, ../sass/module/_hospital.scss */
 .hospitals .thumbnail {
   border-radius: 0;
 }
 
-/* line 6, ../sass/module/_hospital.scss */
+/* line 7, ../sass/module/_hospital.scss */
 .content {
   position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-/* line 9, ../sass/module/_hospital.scss */
+/* line 10, ../sass/module/_hospital.scss */
 .content h3 {
   margin: 5px;
 }
-/* line 12, ../sass/module/_hospital.scss */
+/* line 13, ../sass/module/_hospital.scss */
 .content p {
   font-size: 1.5em;
 }
 
-/* line 17, ../sass/module/_hospital.scss */
+/* line 18, ../sass/module/_hospital.scss */
 .content .content-overlay {
   background: rgba(0, 0, 0, 0.8);
   position: absolute;
@@ -1391,12 +1400,12 @@ header {
   transition: all 0.4s ease-in-out 0s;
 }
 
-/* line 31, ../sass/module/_hospital.scss */
+/* line 32, ../sass/module/_hospital.scss */
 .content:hover .content-overlay {
   opacity: 1;
 }
 
-/* line 37, ../sass/module/_hospital.scss */
+/* line 38, ../sass/module/_hospital.scss */
 .content-details {
   position: absolute;
   text-align: center;
@@ -1414,14 +1423,14 @@ header {
   transition: all 0.3s ease-in-out 0s;
 }
 
-/* line 54, ../sass/module/_hospital.scss */
+/* line 55, ../sass/module/_hospital.scss */
 .content:hover .content-details {
   top: 50%;
   left: 50%;
   opacity: 1;
 }
 
-/* line 60, ../sass/module/_hospital.scss */
+/* line 61, ../sass/module/_hospital.scss */
 .content-details h3 {
   color: #fff;
   font-weight: 500;
@@ -1430,13 +1439,134 @@ header {
   text-transform: uppercase;
 }
 
-/* line 68, ../sass/module/_hospital.scss */
+/* line 69, ../sass/module/_hospital.scss */
 .content-details p {
   color: #fff;
   font-size: 1.5em;
 }
 
-/* line 73, ../sass/module/_hospital.scss */
+/* line 74, ../sass/module/_hospital.scss */
 .fadeIn-bottom {
   top: 80%;
+}
+
+/* line 1, ../sass/module/_footer.scss */
+footer {
+  background-color: #096f64;
+  color: #fff;
+}
+/* line 4, ../sass/module/_footer.scss */
+footer h4 {
+  margin: 0;
+  padding-top: 20px;
+}
+
+@media (max-width: 900px) {
+  /* line 11, ../sass/module/_footer.scss */
+  footer {
+    text-align: center;
+  }
+
+  /* line 14, ../sass/module/_footer.scss */
+  ul.social-network {
+    float: none !important;
+  }
+}
+/*=========================
+  Icons
+ ================= */
+/* footer social icons */
+/* line 25, ../sass/module/_footer.scss */
+ul.social-network {
+  list-style: none;
+  display: inline;
+  float: right;
+  margin: 5px 0 5px 0;
+}
+
+/* line 31, ../sass/module/_footer.scss */
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+/* footer social icons */
+/* line 38, ../sass/module/_footer.scss */
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+/* line 41, ../sass/module/_footer.scss */
+.social-network a.icoTwitter:hover {
+  background-color: #33ccff;
+}
+
+/* line 44, ../sass/module/_footer.scss */
+.social-network a.icoGoogle:hover {
+  background-color: #BD3518;
+}
+
+/* line 47, ../sass/module/_footer.scss */
+.social-network a.icoVimeo:hover {
+  background-color: #0590B8;
+}
+
+/* line 50, ../sass/module/_footer.scss */
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+/* line 53, ../sass/module/_footer.scss */
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+/* line 57, ../sass/module/_footer.scss */
+a.socialIcon:hover, .socialHoverClass {
+  color: #44BCDD;
+}
+
+/* line 61, ../sass/module/_footer.scss */
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+}
+
+/* line 73, ../sass/module/_footer.scss */
+.social-circle li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+/* line 79, ../sass/module/_footer.scss */
+.social-circle li a:hover i, .triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+/* line 90, ../sass/module/_footer.scss */
+.social-circle i {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
 }
