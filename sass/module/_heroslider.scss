@@ -7,6 +7,12 @@ header{
   background: white;
 }
 
+@media screen and (max-width: 768px){
+  .wrapper{
+    margin-bottom: 20px;
+  }
+}
+
 .wrapper:after {
   content: '';
   clear: both;
@@ -31,15 +37,24 @@ header{
   content: '';
 }
 
-.wrapper .copy article {
-  margin: auto;
-  padding: 4vw;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
+// .wrapper .copy article {
+//   margin: auto;
+//   padding: 4vw;
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+// }
+
+.article {
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+} 
 
 .wrapper .copy h2 {
   margin: 0;
