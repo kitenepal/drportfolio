@@ -7,22 +7,22 @@ body {
 /* line 5, ../sass/base/_base.scss */
 .heading {
   color: white !important;
+  font-family: "Squada One", cursive;
+}
+/* line 8, ../sass/base/_base.scss */
+.heading--size {
+  font-size: 5.8em;
+  text-shadow: 0px 0px 4px #096f64;
 }
 
-/* line 9, ../sass/base/_base.scss */
+/* line 14, ../sass/base/_base.scss */
 .section-padding {
   padding: 20px 0 40px 0;
 }
 
-/* line 13, ../sass/base/_base.scss */
+/* line 18, ../sass/base/_base.scss */
 .section-title {
   padding: 0 0 40px 0;
-  font-family: "Squada One", cursive;
-}
-/* line 16, ../sass/base/_base.scss */
-.section-title--size {
-  font-size: 5.8em;
-  text-shadow: 0px 0px 4px #096f64;
 }
 
 /* line 1, ../sass/module/_headerslider.scss */

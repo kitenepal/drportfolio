@@ -4,6 +4,11 @@ body{
 
 .heading{
 	color: white !important;
+	font-family: $heading-font;
+	&--size{
+		font-size: 5.8em;
+		text-shadow: 0px 0px 4px $secondary-color;
+	}
 }
 
 .section-padding{
@@ -12,9 +17,4 @@ body{
 
 .section-title{
 	padding: $section-title;
-	font-family: $heading-font;
-	&--size{
-		font-size: 5.8em;
-		text-shadow: 0px 0px 4px $secondary-color;
-	}
 }
