@@ -982,6 +982,11 @@ main.nav-is-visible {
   border-color: #ffebee;
 }
 
+/* line 334, ../sass/module/_doctor.scss */
+.dr-ad img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* line 1, ../sass/module/_heroslider.scss */
 header {
   height: 50px !important;
