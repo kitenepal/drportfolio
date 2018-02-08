@@ -1583,3 +1583,13 @@ a.socialIcon:hover, .socialHoverClass {
   -ms-transition: all 0.8s;
   transition: all 0.8s;
 }
+
+/* line 2, ../sass/module/_advertisement.scss */
+.advertise img {
+  width: 100% !important;
+  height: 200px !important;
+}
+/* line 6, ../sass/module/_advertisement.scss */
+.advertise .img-thumbnail {
+  border-radius: 0px !important;
+}
