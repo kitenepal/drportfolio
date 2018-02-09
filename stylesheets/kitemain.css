@@ -1025,7 +1025,7 @@ header {
   background: white;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   /* line 11, ../sass/module/_heroslider.scss */
   .wrapper {
     margin-bottom: 20px;
@@ -1601,4 +1601,11 @@ a.socialIcon:hover, .socialHoverClass {
 /* line 6, ../sass/module/_advertisement.scss */
 .advertise .img-thumbnail {
   border-radius: 0px !important;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 12, ../sass/module/_advertisement.scss */
+  .top-advertise {
+    margin-top: 20px;
+  }
 }
