@@ -1609,3 +1609,21 @@ a.socialIcon:hover, .socialHoverClass {
     margin-top: 20px;
   }
 }
+/* line 2, ../sass/module/_modal.scss */
+.modal-content {
+  border-radius: 0px !important;
+}
+/* line 5, ../sass/module/_modal.scss */
+.modal-title {
+  font-family: "Squada One", cursive;
+  font-size: 24px;
+}
+/* line 9, ../sass/module/_modal.scss */
+.modal p {
+  font-size: 16px;
+}
+
+/* line 14, ../sass/module/_modal.scss */
+.modal-open .container-fluid, .modal-open .container {
+  -webkit-filter: blur(5px) grayscale(90%);
+}
