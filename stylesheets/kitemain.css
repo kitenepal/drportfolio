@@ -1647,16 +1647,3 @@ a.socialIcon:hover, .socialHoverClass {
 .content-title a:hover, .content-title a:focus, .content-title a:active {
   color: white;
 }
-
-/* line 1, ../sass/module/_gotop.scss */
-.scrollup {
-  width: 40px;
-  height: 40px;
-  position: fixed;
-  bottom: 50px;
-  right: 100px;
-  display: none;
-  text-indent: -9999px;
-  background-image: url("http://www.freeiconspng.com/uploads/arrow-icon-clip-art-file-down-arrow-icon-png-balin-icon-arrow-right--32.png") no-repeat;
-  background-color: #000;
-}
