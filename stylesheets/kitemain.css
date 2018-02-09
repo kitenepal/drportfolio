@@ -757,7 +757,6 @@ main.nav-is-visible {
   top: 100%;
   right: 30px;
   left: 30px;
-  bottom: 54px;
   overflow: hidden;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -766,9 +765,17 @@ main.nav-is-visible {
   -ms-transition: all 1.2s;
   -o-transition: all 1.2s;
   transition: all 1.2s;
+  font-size: 1.2em;
+}
+/* line 147, ../sass/module/_doctor.scss */
+.material-card .mc-description a {
+  text-decoration: none;
+  outline: 0;
+  font-size: bold;
+  color: #338D35;
 }
 
-/* line 148, ../sass/module/_doctor.scss */
+/* line 154, ../sass/module/_doctor.scss */
 .material-card .mc-footer {
   height: 0;
   overflow: hidden;
@@ -779,7 +786,7 @@ main.nav-is-visible {
   transition: all 0.3s;
 }
 
-/* line 157, ../sass/module/_doctor.scss */
+/* line 163, ../sass/module/_doctor.scss */
 .material-card .mc-footer h4 {
   position: absolute;
   top: 200px;
@@ -795,7 +802,7 @@ main.nav-is-visible {
   transition: all 1.4s;
 }
 
-/* line 171, ../sass/module/_doctor.scss */
+/* line 177, ../sass/module/_doctor.scss */
 .material-card .mc-footer a {
   display: block;
   float: left;
@@ -811,7 +818,7 @@ main.nav-is-visible {
   top: 200px;
 }
 
-/* line 185, ../sass/module/_doctor.scss */
+/* line 191, ../sass/module/_doctor.scss */
 .material-card .mc-footer a:nth-child(1) {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -820,7 +827,7 @@ main.nav-is-visible {
   transition: all 0.5s;
 }
 
-/* line 192, ../sass/module/_doctor.scss */
+/* line 198, ../sass/module/_doctor.scss */
 .material-card .mc-footer a:nth-child(2) {
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
@@ -829,7 +836,7 @@ main.nav-is-visible {
   transition: all 0.6s;
 }
 
-/* line 199, ../sass/module/_doctor.scss */
+/* line 205, ../sass/module/_doctor.scss */
 .material-card .mc-footer a:nth-child(3) {
   -webkit-transition: all 0.7s;
   -moz-transition: all 0.7s;
@@ -838,7 +845,7 @@ main.nav-is-visible {
   transition: all 0.7s;
 }
 
-/* line 206, ../sass/module/_doctor.scss */
+/* line 212, ../sass/module/_doctor.scss */
 .material-card .mc-footer a:nth-child(4) {
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
@@ -847,7 +854,7 @@ main.nav-is-visible {
   transition: all 0.8s;
 }
 
-/* line 213, ../sass/module/_doctor.scss */
+/* line 219, ../sass/module/_doctor.scss */
 .material-card .mc-footer a:nth-child(5) {
   -webkit-transition: all 0.9s;
   -moz-transition: all 0.9s;
@@ -856,7 +863,7 @@ main.nav-is-visible {
   transition: all 0.9s;
 }
 
-/* line 220, ../sass/module/_doctor.scss */
+/* line 226, ../sass/module/_doctor.scss */
 .material-card .img-container {
   overflow: hidden;
   position: absolute;
@@ -872,7 +879,7 @@ main.nav-is-visible {
   transition: all 0.3s;
 }
 
-/* line 234, ../sass/module/_doctor.scss */
+/* line 240, ../sass/module/_doctor.scss */
 .material-card.mc-active .img-container {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -884,19 +891,19 @@ main.nav-is-visible {
   z-index: 20;
 }
 
-/* line 244, ../sass/module/_doctor.scss */
+/* line 250, ../sass/module/_doctor.scss */
 .material-card.mc-active .mc-content {
   padding-top: 5.6em;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 248, ../sass/module/_doctor.scss */
+  /* line 254, ../sass/module/_doctor.scss */
   .material-card.mc-active .mc-content {
     position: relative;
     margin-right: 16px;
   }
 }
-/* line 253, ../sass/module/_doctor.scss */
+/* line 259, ../sass/module/_doctor.scss */
 .material-card.mc-active .mc-description {
   top: 50px;
   padding-top: 55px;
@@ -905,7 +912,7 @@ main.nav-is-visible {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 260, ../sass/module/_doctor.scss */
+  /* line 266, ../sass/module/_doctor.scss */
   .material-card.mc-active .mc-description {
     position: relative;
     top: auto;
@@ -915,7 +922,7 @@ main.nav-is-visible {
     bottom: 0;
   }
 }
-/* line 269, ../sass/module/_doctor.scss */
+/* line 275, ../sass/module/_doctor.scss */
 .material-card.mc-active .mc-footer {
   overflow: visible;
   position: absolute;
@@ -927,22 +934,22 @@ main.nav-is-visible {
   padding-left: 25px;
 }
 
-/* line 279, ../sass/module/_doctor.scss */
+/* line 285, ../sass/module/_doctor.scss */
 .material-card.mc-active .mc-footer a {
   top: 0;
 }
 
-/* line 282, ../sass/module/_doctor.scss */
+/* line 288, ../sass/module/_doctor.scss */
 .material-card.mc-active .mc-footer h4 {
   top: -32px;
 }
 
-/* line 285, ../sass/module/_doctor.scss */
+/* line 291, ../sass/module/_doctor.scss */
 .material-card.Red h2 {
   background-color: #096f64;
 }
 
-/* line 288, ../sass/module/_doctor.scss */
+/* line 294, ../sass/module/_doctor.scss */
 .material-card.Red h2:after {
   border-top-color: #096f64;
   border-right-color: #096f64;
@@ -950,7 +957,7 @@ main.nav-is-visible {
   border-left-color: transparent;
 }
 
-/* line 294, ../sass/module/_doctor.scss */
+/* line 300, ../sass/module/_doctor.scss */
 .material-card.Red h2:before {
   border-top-color: transparent;
   border-right-color: #083f49;
@@ -958,7 +965,7 @@ main.nav-is-visible {
   border-left-color: transparent;
 }
 
-/* line 300, ../sass/module/_doctor.scss */
+/* line 306, ../sass/module/_doctor.scss */
 .material-card.Red.mc-active h2:before {
   border-top-color: transparent;
   border-right-color: #096f64;
@@ -966,7 +973,7 @@ main.nav-is-visible {
   border-left-color: transparent;
 }
 
-/* line 306, ../sass/module/_doctor.scss */
+/* line 312, ../sass/module/_doctor.scss */
 .material-card.Red.mc-active h2:after {
   border-top-color: #083f49;
   border-right-color: #083f49;
@@ -974,48 +981,34 @@ main.nav-is-visible {
   border-left-color: transparent;
 }
 
-/* line 312, ../sass/module/_doctor.scss */
+/* line 318, ../sass/module/_doctor.scss */
 .material-card.Red .mc-btn-action {
   background-color: #096f64;
 }
 
-/* line 315, ../sass/module/_doctor.scss */
+/* line 321, ../sass/module/_doctor.scss */
 .material-card.Red .mc-btn-action:hover {
   background-color: #096f64;
 }
 
-/* line 318, ../sass/module/_doctor.scss */
-.material-card.Red .mc-footer h4 {
-  color: #096f64;
-}
-
-/* line 321, ../sass/module/_doctor.scss */
+/* line 324, ../sass/module/_doctor.scss */
 .material-card.Red .mc-footer a {
   background-color: #096f64;
 }
 
-/* line 324, ../sass/module/_doctor.scss */
+/* line 327, ../sass/module/_doctor.scss */
 .material-card.Red.mc-active .mc-content {
   background-color: #ffebee;
 }
 
-/* line 327, ../sass/module/_doctor.scss */
+/* line 330, ../sass/module/_doctor.scss */
 .material-card.Red.mc-active .mc-footer {
   background-color: #ffcdd2;
 }
 
-/* line 330, ../sass/module/_doctor.scss */
+/* line 333, ../sass/module/_doctor.scss */
 .material-card.Red.mc-active .mc-btn-action {
   border-color: #ffebee;
-}
-
-/* line 337, ../sass/module/_doctor.scss */
-.dr-ad img {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-/* line 340, ../sass/module/_doctor.scss */
-.dr-ad h3 {
-  margin: 0px;
 }
 
 /* line 1, ../sass/module/_heroslider.scss */
@@ -1634,11 +1627,6 @@ a.socialIcon:hover, .socialHoverClass {
     margin: 10px 0px;
   }
 }
-/* line 22, ../sass/module/_modal.scss */
-.modal-open .container-fluid, .modal-open .container {
-  -webkit-filter: blur(5px) grayscale(90%);
-}
-
 /* line 28, ../sass/module/_modal.scss */
 .content-title a {
   transition: 0.3s;
