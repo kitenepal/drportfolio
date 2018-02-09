@@ -30,6 +30,11 @@ body {
   padding: 0 0 40px 0;
 }
 
+/* line 26, ../sass/base/_base.scss */
+.box-shadow {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
 /* line 1, ../sass/module/_headerslider.scss */
 .heroslider {
   margin: 40px 0px;
@@ -247,7 +252,7 @@ body {
 /* line 191, ../sass/module/_headerslider.scss */
 .cd-3d-nav-container {
   /* this is the 3D navigation container */
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   height: 80px;
@@ -1604,7 +1609,7 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 @media screen and (max-width: 960px) {
-  /* line 12, ../sass/module/_advertisement.scss */
+  /* line 13, ../sass/module/_advertisement.scss */
   .top-advertise {
     margin-top: 20px;
   }
