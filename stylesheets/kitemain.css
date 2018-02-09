@@ -1623,7 +1623,22 @@ a.socialIcon:hover, .socialHoverClass {
   font-size: 16px;
 }
 
-/* line 14, ../sass/module/_modal.scss */
+@media screen and (max-width: 960px) {
+  /* line 16, ../sass/module/_modal.scss */
+  .modal img {
+    margin: 10px 0px;
+  }
+}
+/* line 22, ../sass/module/_modal.scss */
 .modal-open .container-fluid, .modal-open .container {
   -webkit-filter: blur(5px) grayscale(90%);
+}
+
+/* line 28, ../sass/module/_modal.scss */
+.content-title a {
+  transition: 0.3s;
+}
+/* line 31, ../sass/module/_modal.scss */
+.content-title a:hover, .content-title a:focus, .content-title a:active {
+  color: white;
 }
