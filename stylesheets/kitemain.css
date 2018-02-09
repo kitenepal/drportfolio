@@ -1634,11 +1634,6 @@ a.socialIcon:hover, .socialHoverClass {
     margin: 10px 0px;
   }
 }
-/* line 22, ../sass/module/_modal.scss */
-.modal-open .container-fluid, .modal-open .container {
-  -webkit-filter: blur(5px) grayscale(90%);
-}
-
 /* line 28, ../sass/module/_modal.scss */
 .content-title a {
   transition: 0.3s;
