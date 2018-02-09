@@ -634,7 +634,7 @@ main.nav-is-visible {
   line-height: 1.6em;
   margin: 0;
   z-index: 10;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -738,7 +738,7 @@ main.nav-is-visible {
 
 /* line 127, ../sass/module/_doctor.scss */
 .material-card .mc-btn-action:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 /* line 130, ../sass/module/_doctor.scss */
@@ -1396,7 +1396,7 @@ header {
 /* line 6, ../sass/module/_hospital.scss */
 .content {
   position: relative;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 /* line 9, ../sass/module/_hospital.scss */
 .content h3 {
