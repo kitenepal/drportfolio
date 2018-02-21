@@ -135,7 +135,6 @@
   top: 100%;
   right: 30px;
   left: 30px;
-  bottom: 54px;
   overflow: hidden;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -144,6 +143,13 @@
   -ms-transition: all 1.2s;
   -o-transition: all 1.2s;
   transition: all 1.2s;
+  font-size: 1.2em;
+  a{
+    text-decoration: none;
+    outline: 0;
+    font-size: bold;
+    color: $primary-color;
+  }
 }
 .material-card .mc-footer {
   height: 0;
@@ -315,9 +321,6 @@
 .material-card.Red .mc-btn-action:hover {
   background-color: $secondary-color;
 }
-.material-card.Red .mc-footer h4 {
-  color: $secondary-color;
-}
 .material-card.Red .mc-footer a {
   background-color: $secondary-color;
 }
@@ -330,17 +333,4 @@
 .material-card.Red.mc-active .mc-btn-action {
   border-color: #ffebee;
 }
-
-// --------------------------------- advertisement ---------------------------- //
-
-.dr-ad{
-  img{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  h3{
-    margin:0px;
-  }
-}
-
-// -------------------------------------------------------------------------- //
 
